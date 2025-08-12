@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <title>Sarthak Mishra</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a class="nav__logo">Sarthak Mishra</a>
+                </div>
+
+                <div class="nav__icons">
+                    <i class='bx bx-moon' id="theme-button" style="cursor: pointer;"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-menu'></i>
+                    </div>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list" id="nav-menu">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item">
+                            <a href="assets/Sarthak Mishra Resume.pdf" class="nav__link" target="_blank">Resume</a>
+                        </li>
+                        <li class="nav__item"><a href="#achievements" class="nav__link">Achievements</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+
+                    <!-- <h1 class="home__title">Hi, I am Sarthak Mishra</h1> -->
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Sarthak</span></h1>
+                    <h3 class="home__subtitle">
+                        <span id="typed-text"></span><span class="cursor">|</span>
+                    </h3>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/sarthak-mishra-dev/" target="_blank" class="home__social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Sarthak-Mishra-1628" target="_blank" class="home__social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/_sxrthakk/" target="_blank" class="home__social-link">
+                        <i class="fa-solid fa-code"></i>
+                    </a>
+                    <a href="mailto:sarthakmishra1605@example.com" target="_blank" class="home__social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+
+                <div class="home__img image-wrapper">
+                    <img src="assets/img/me.jpeg" alt="Sarthak Mishra" class="profile-circle">
+                    <div class="overlay"></div>
+                </div>
+
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img image-wrapper">
+                        <img src="assets/img/me.png" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm Sarthak</h2>
+                        <p class="about__text">I'm a third-year Computer Science student at SGTB Khalsa College, Delhi University. I like building backend systems using Java and Spring Boot, and I’ve been diving into microservices lately. I'm also into DSA and solving leetcode problems.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text">Skilled in backend development with a strong foundation in Java, Spring Boot, Microservices, RESTful APIs, and relational databases.</p>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                            <i class='bx bx-code-alt skills__icon'></i>
+                            <span class="skills__name">Java</span>
+                            </div>
+                            <div class="skills__bar skills__java"></div>
+                            <div>
+                            <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                            <i class='bx bx-layer skills__icon'></i>
+                            <span class="skills__name">Spring Boot</span>
+                            </div>
+                            <div class="skills__bar skills__spring"></div>
+                            <div>
+                            <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                            <i class='bx bx-git-branch skills__icon'></i>
+                            <span class="skills__name">Microservices</span>
+                            </div>
+                            <div class="skills__bar skills__microservices"></div>
+                            <div>
+                            <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                            <i class='bx bx-link-alt skills__icon'></i>
+                            <span class="skills__name">REST APIs</span>
+                            </div>
+                            <div class="skills__bar skills__rest"></div>
+                            <div>
+                            <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                            <i class='bx bx-data skills__icon'></i>
+                            <span class="skills__name">MySQL</span>
+                            </div>
+                            <div class="skills__bar skills__mysql"></div>
+                            <div>
+                            <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.png" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects__container">
+                    
+                    <!-- Project 1 -->
+                    <div class="project__card">
+                    <img src="assets/img/patient-arch.jpg" alt="Patient Management System">
+                    <h3 class="project__title">Patient Management System</h3>
+                    <p class="project__description">
+                        Designed a scalable, production-grade healthcare system with microservices, event streaming, gRPC, containerization, and local AWS infrastructure simulation.                    </p>
+                    <a href="https://github.com/Sarthak-Mishra-1628/Patient-Mangement-System" class="project__btn" target="_blank">See more</a>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project__card">
+                    <img src="assets/img/social-backend.jpg" alt="Social Media Backend">
+                    <h3 class="project__title">Social Media Backend</h3>
+                    <p class="project__description">
+                        Developed a backend system for a social media platform with user authentication, post creation, and feed personalization, focusing on clean architecture and secure RESTful APIs.                    </p>
+                    <a href="https://github.com/Sarthak-Mishra-1628/Social-Media-Backend-using-Spring-Boot" class="project__btn" target="_blank">See more</a>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project__card">
+                    <img src="assets/img/hotel-rating.png" alt="Hotel Rating System">
+                    <h3 class="project__title">Hotel Rating System</h3>
+                    <p class="project__description">
+                        Built a modular microservices-based hotel rating system with service discovery, dynamic routing, inter-service communication, and fault tolerance.                    </p>
+                    <a href="https://github.com/Sarthak-Mishra-1628/Spring-Boot-Microservices" class="project__btn" target="_blank">See more</a>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="achievements-section" id="achievements">
+                <h2 class="section-title">Achievements</h2>
+                <p class="section-subtitle">Academic & Development</p>
+
+                <div class="achievement-container">
+                    <div class="achievement-card">
+                        <h3>Top Rank in College</h3>
+                        <p>Secured 1st rank in my college during the first year with a CGPA of 9.09, topping the Computer Science batch.</p>
+                        <br>
+                        <a href="assets/img/certi.jpg" target="_blank">View Certificate</a>
+                    </div>
+                    <div class="achievement-card">
+                        <h3>Hackathon Contributor</h3>
+                        <p>Participated in 2 inter-college hackathons. Contributed to the frontend, built components under time constraints, and worked in sync with cross-functional teams.</p>
+                        <a href="assets/img/certi_2.jpg" target="_blank">View Certificate 1</a>
+                        <br>
+                        <a href="assets/img/certi_1.jpg" target="_blank">View Certificate 2</a>
+                    </div>
+                    <div class="achievement-card">
+                        <h3>900+ LeetCode Problems</h3>
+                        <p>Solved over 900 problems on LeetCode across all categories — arrays, trees, dynamic programming, graphs, and more.</p>
+                        <br>
+                        <a href="https://leetcode.com/u/_sxrthakk/" target="_blank">View Leetcode Profile</a>
+                    </div>
+        
+                    <div class="achievement-card">
+                        <h3>Knight on Leetcode</h3>
+                        <p>Achieved a peak rating of 1897 on LeetCode through weekly contests — consistently placed among top global ranks.</p>
+                        <br>
+                        <a href="https://leetcode.com/u/_sxrthakk/" target="_blank">View Leetcode Profile</a>
+                    </div>
+                </div>
+            </section>          
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact Me</h2>
+
+                <div class="contact__container bd-grid">
+                    <form id="contact-form" class="contact__form">
+                    <input type="text" name="user_name" placeholder="Your Name" required class="contact__input">
+                    <input type="email" name="user_email" placeholder="Your Email" required class="contact__input">
+                    <textarea name="message" placeholder="Your Message" rows="7" required class="contact__input"></textarea>
+                    <input type="submit" value="Send Message" class="contact__button button">
+                    <p id="form-message" class="form-message"></p>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Sarthak Mishra</p>
+
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/sarthak-mishra-dev/" target="_blank" class="footer__icon" title="LinkedIn">
+                <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="https://github.com/Sarthak-Mishra-1628" target="_blank" class="footer__icon" title="GitHub">
+                <i class='bx bxl-github'></i>
+                </a>
+                <a href="https://leetcode.com/u/_sxrthakk/" target="_blank" class="footer__icon" title="LeetCode">
+                <i class="fa-solid fa-code"></i>
+                </a>
+                <a href="mailto:sarthakmishra1605@example.com" class="footer__icon" title="Email">
+                <i class='bx bx-envelope'></i>
+                </a>
+            </div>
+
+            <p class="footer__copy">&#169; Sarthak Mishra. All rights reserved</p>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+            <script>
+            (function(){
+                emailjs.init("kpI3PPXt229_-u_hy"); // Replace with your public key (starts with `public_`)
+            })();
+        </script>
+    </body>
+</html>
